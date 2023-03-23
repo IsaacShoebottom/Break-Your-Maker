@@ -1,0 +1,2432 @@
+fileFormatVersion: 2
+guid: 4d23aa2fc76fb3248a11bb906f3dd217
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: props and items x3_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2042
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c6c35f5c71d81459990a3c8754d130
+      internalID: -829970827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2041
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78c3f6e95c73048bf7111dea9710a2
+      internalID: -1498384045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1828
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6f1b313cd88ed458662f552250a444
+      internalID: -1534311719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1828
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bdd9c8a12996b14d9e080833353049a
+      internalID: -1332255514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1830
+        width: 76
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c1dd78fc111dd4588473dfa152eaec
+      internalID: -1812767916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1935
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e4f4a945ba232409b62496941eb76d
+      internalID: -205167733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1935
+        width: 85
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fe6f715e4033144945f69e13521a4e
+      internalID: 1684391060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1947
+        width: 83
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b9a059c63213a49b337e042b4e49cc
+      internalID: 841653639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1947
+        width: 70
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8451534460ab54097fe167b0077339
+      internalID: -1475251227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_9
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1828
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d14975eaf670a4cac2281f34cc55c0
+      internalID: 514210103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_10
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2027
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3febbdc22b2be124598e5d0cc38c6376
+      internalID: -1943762792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 2027
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd4315489b36314c9d210631de0161a
+      internalID: -2059291524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_12
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 2027
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab30f69573abc44da614fd1c84cddfe
+      internalID: -155041819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_13
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2027
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256b66a457f37da4ead1f301651c9eb1
+      internalID: -844351217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_14
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1931
+        width: 89
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58df1606379d4542a87b76c28f7fb97
+      internalID: -2089289361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_15
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1830
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e437d44e1f1b4f48a78f66146fa0dcd
+      internalID: -842910232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_16
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1829
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c969733eb9e8ceb419d52fc749f5285e
+      internalID: 957300678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_17
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1836
+        width: 76
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48552595ddb74a24ba8d1515d091d434
+      internalID: -581127573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_18
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1836
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a658dbf32eda56444b42ddbbf561e5b5
+      internalID: 763364603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_19
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1836
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de1518d44c35e04d85d6ec6c77b0b22
+      internalID: -1535355120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_20
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1836
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6052353a7dbc74146bb9a83f8eee7f42
+      internalID: -1687033025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_21
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1942
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a049f5d32250032488ee97a055b981c2
+      internalID: 484149213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_22
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1945
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ae7b67f34db8249b7c3eb18e0b15ad
+      internalID: -1428221072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_23
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 2069
+        width: 45
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fcc6bc1a2a33c429a1eeaa5de9d81c
+      internalID: -1535240713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_24
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 2072
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6399d6223f3a547a0db0b182612a77
+      internalID: 1339944484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_25
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1739
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a059c39397d5e4aa1c0462b2a92f54
+      internalID: -271872237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_26
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1739
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e688641278af834aad51b271f9f76c9
+      internalID: -683012254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1733
+        width: 77
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd4f287048905c44beba5eabadcffcd
+      internalID: 1405078667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1739
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52723a7f5af79244594f176672816841
+      internalID: 1221197898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_29
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1635
+        width: 142
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a50a0ec545ee1a4a97876758879ba0a
+      internalID: -74528265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_30
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1635
+        width: 142
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd962d9c118d9284cbf7b9ee295c70a0
+      internalID: -463052490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_31
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1635
+        width: 143
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cb13d3c23847043998576cf4bae717
+      internalID: -751569129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_32
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1634
+        width: 141
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d08f8e635f6f9b47be1330ec5574fe3
+      internalID: -1782563695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_33
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1542
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242022bb9be3487419d063d363d0ec2c
+      internalID: -522257752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_34
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1542
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8955ca3ac5e3a046aa254126a3188fd
+      internalID: 1813006609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1538
+        width: 140
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3682737c77fe4b64d984c5490003b956
+      internalID: 170128969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1371
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce00506dff69e64b9e8b034810aac0c
+      internalID: -629172341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_37
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1371
+        width: 62
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef99f2c11f2bda14f9f4054fe89c9f38
+      internalID: 673462570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_38
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1370
+        width: 63
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9e638afbcc6f74e82faa4247a3c773
+      internalID: 149732366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_39
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1370
+        width: 64
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0937ffa6f3e21ac4f98c9aa9efc61f48
+      internalID: -1741999246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_40
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1472
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d38e7842bf9bac49a2a4eafe6110e3d
+      internalID: -822524116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_41
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1472
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce5e74793daee0499240ad79f11bbf7
+      internalID: -817257036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_42
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1473
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711a4e8ebce35594aacf2b63a741a716
+      internalID: 543081656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_43
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1472
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58f533617682cd45ac17609ec82ff7e
+      internalID: 1858778589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_44
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1442
+        width: 78
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8bdde127378c4283191b9b4e8ca38
+      internalID: -787385086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_45
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1442
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3dacf63f4a4c24fa6449973aabf4d8
+      internalID: 1950191749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_46
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1442
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ec42ffcf23cc140be84af98d83a543
+      internalID: -2029766981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_47
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1442
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477ee634e96dac247a2ad0d82b5bcd32
+      internalID: -648902749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_48
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1345
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9214678bc69db64cbf0d4cf68e01de1
+      internalID: -1890604430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_49
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1345
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850b6863c6921684e9a2570f607af9fe
+      internalID: -388486188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_50
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 1347
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8e4e489cd5a4243b69b12e6434df81
+      internalID: -1040749179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_51
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1346
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f77c8d6a37cbb42a88933241ddcd53
+      internalID: -1194612928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_52
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1248
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4801620fd797d4045924b6d7e6a97177
+      internalID: 1250302414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_53
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1248
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13719fde280dd134e9a973852aa4b5b8
+      internalID: -1259930709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_54
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1374
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a172243d8f98be74eaeb9f3cebeaed9c
+      internalID: -1011182814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_55
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1376
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19da585adb908d64eb5789d5afb0b6bb
+      internalID: 1415992636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_56
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1375
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa8cfeff6dfb1a428a9811e2f59280f
+      internalID: -1609587826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_57
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1375
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9924dddf5766b3946999fe98d0a8f765
+      internalID: -1045106525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_58
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1279
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cb779938b536e47a63402ca519dd11
+      internalID: 1493839320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_59
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1279
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b6dcd293f610b48aec3a41a442d86d
+      internalID: -1391960301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_60
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1279
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ac4dac75336714684ffbf8b1547bd9
+      internalID: -252574493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_61
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1278
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9894e524e27fb048af945f8883f24ea
+      internalID: -471603166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1177
+        width: 66
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34a0861d65cfe04495c9c4496475859
+      internalID: -1405926410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_63
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1179
+        width: 63
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc2b5d03d50e33429d16b309ff8225d
+      internalID: 1307631582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_64
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1179
+        width: 65
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554285e5cec07dd46b1f8b714f231694
+      internalID: -865577449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_65
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1178
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e922296e1ea8974387319f1b022e31b
+      internalID: -516106895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_66
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 985
+        width: 64
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a943249a6c6b1e74dae4f43f755aa47f
+      internalID: 858700354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 861
+        width: 192
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57b3c04a25b5674db981fd65eccde53
+      internalID: 69099716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96163309a13c597468b46db66d79fd40
+      internalID: 1550924695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 192
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe37af18c09462645a2c34033cc7336b
+      internalID: -1053630259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 193
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5754bc2620999a144ac74d3dc86ece48
+      internalID: 1090661211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_71
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 864
+        width: 193
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3693fe5cd81876e45a49e88087ef47f0
+      internalID: 116335619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_72
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 864
+        width: 192
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ed90189ab28aa43af136c15e5a9c21
+      internalID: -1992479436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_73
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 864
+        width: 190
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a3a816ffbc6f84180b971c96c1beb3
+      internalID: 1784574193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 193
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db096d0d69d1ed142af42cd11bea63b8
+      internalID: 1372739292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_75
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 479
+        width: 193
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c177dbeec46dda4dab9eb46b8c04c18
+      internalID: 287582680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_76
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 479
+        width: 191
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e6818f6188cbb4d995a1cb718e8486
+      internalID: -737081920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_77
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 479
+        width: 192
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230abbc1782a1544981a952f3edf4f48
+      internalID: 946719683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_78
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 479
+        width: 192
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66655b35fb77cf446ab42307be987a77
+      internalID: -1008264364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_79
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 479
+        width: 192
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49001ad7a4aac004b8c1ca43f4b7ef28
+      internalID: 1559475478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_80
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 479
+        width: 192
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403391d87c3ea1f4cb0bbc40aa62c683
+      internalID: -1793090235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_81
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 479
+        width: 193
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e9085844340c34681fa2a518f915d1
+      internalID: 1730603230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_82
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 479
+        width: 191
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74da32fa2bdacb419640c9277eb242f
+      internalID: -1634381197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_83
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 479
+        width: 192
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f028bfe0d0e761e4da1b50a808d190f0
+      internalID: -1977953633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_84
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 479
+        width: 193
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13ed3bb1ccd5e9489768e44730191e6
+      internalID: 723027889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_85
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 479
+        width: 190
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142a26515d5a78c43baf58d53cd5ac32
+      internalID: 410566732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603d3d85819e9eb41ba0802791f07caf
+      internalID: 998428090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7db26e8876fd6499040419755e38d9
+      internalID: -292691573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8092faa6d29e38d44b126e7f72c9ef32
+      internalID: -990691690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_89
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 191
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816eb59c80992b847a3f9d7b36ba10e5
+      internalID: 1570794248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 97
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ca11e0f666f941bae15f3eadba234
+      internalID: -539975875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_91
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 384
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdedf177d523b84f95ad0af4bab7143
+      internalID: 879935304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_92
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 384
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6678198631dd1c41a8f575299a494df
+      internalID: 1976837406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf8a1a16f009a44a923e34e54d2df52
+      internalID: -1403413126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_94
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0538bdb49a52ebf408a9f91cb056d2ec
+      internalID: 200015786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_95
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffcc6616e3daa343890076bc337e1b1
+      internalID: 90070277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_96
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62778afb0e66b734b9f622aaa4da9ba2
+      internalID: 581136771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_97
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c60effd47ff5f40ad2737a6db8452c
+      internalID: 1440908267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_98
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39107f4ab5dcf5478061a5af795f5a6
+      internalID: -893108811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_99
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a07001cc29c614d8dc72ee33f21d6f
+      internalID: 102180089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_100
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6024b2b65d2a04eb8e03f330a53ea2
+      internalID: -1994793978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_101
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d766850bf3e942845b4ebfd397395b48
+      internalID: -1391609434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_102
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 0
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03f30be37a1a9d4bbaabe03a56c3772
+      internalID: -2140886891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_103
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 0
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2220198b4775f054c87bc1b735297a8d
+      internalID: 1713735905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props and items x3_104
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 0
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abb37e3d32182d4b82320af07aaa196
+      internalID: 1558610159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      props and items x3_48: -648902749
+      props and items x3_5: -1812767916
+      props and items x3_47: -2029766981
+      props and items x3_29: 1221197898
+      props and items x3_55: -1011182814
+      props and items x3_59: 1493839320
+      props and items x3_1: -1498384045
+      props and items x3_22: 484149213
+      props and items x3_88: -292691573
+      props and items x3_24: -1535240713
+      props and items x3_93: 1976837406
+      props and items x3_92: 879935304
+      props and items x3_36: 170128969
+      props and items x3_80: 1559475478
+      props and items x3_44: 1858778589
+      props and items x3_33: -1782563695
+      props and items x3_85: 723027889
+      props and items x3_65: -865577449
+      props and items x3_97: 581136771
+      props and items x3_51: -1040749179
+      props and items x3_28: 1405078667
+      props and items x3_49: -1890604430
+      props and items x3_94: -1403413126
+      props and items x3_89: -990691690
+      props and items x3_56: 1415992636
+      props and items x3_9: -1475251227
+      props and items x3_78: 946719683
+      props and items x3_90: 1570794248
+      props and items x3_53: 1250302414
+      props and items x3_98: 1440908267
+      props and items x3_0: -829970827
+      props and items x3_76: 287582680
+      props and items x3_82: 1730603230
+      props and items x3_71: 1090661211
+      props and items x3_2: 1391482107
+      props and items x3_86: 410566732
+      props and items x3_21: -1687033025
+      props and items x3_10: 514210103
+      props and items x3_72: 116335619
+      props and items x3_104: 1713735905
+      props and items x3_7: 1684391060
+      props and items x3_8: 841653639
+      props and items x3_27: -683012254
+      props and items x3_74: 1784574193
+      props and items x3_68: 69099716
+      props and items x3_70: -1053630259
+      props and items x3_37: -629172341
+      props and items x3_84: -1977953633
+      props and items x3_11: -1943762792
+      props and items x3_101: -1994793978
+      props and items x3_42: -817257036
+      props and items x3_32: -751569129
+      props and items x3_69: 1550924695
+      props and items x3_40: -1741999246
+      props and items x3_81: -1793090235
+      props and items x3_41: -822524116
+      props and items x3_38: 673462570
+      props and items x3_43: 543081656
+      props and items x3_26: -271872237
+      props and items x3_46: 1950191749
+      props and items x3_60: -1391960301
+      props and items x3_66: -516106895
+      props and items x3_67: 858700354
+      props and items x3_73: -1992479436
+      props and items x3_13: -155041819
+      props and items x3_57: -1609587826
+      props and items x3_95: 200015786
+      props and items x3_35: 1813006609
+      props and items x3_63: -1405926410
+      props and items x3_20: -1535355120
+      props and items x3_50: -388486188
+      props and items x3_52: -1194612928
+      props and items x3_99: -893108811
+      props and items x3_23: -1428221072
+      props and items x3_15: -2089289361
+      props and items x3_14: -844351217
+      props and items x3_75: 1372739292
+      props and items x3_34: -522257752
+      props and items x3_12: -2059291524
+      props and items x3_79: -1008264364
+      props and items x3_77: -737081920
+      props and items x3_87: 998428090
+      props and items x3_58: -1045106525
+      props and items x3_100: 102180089
+      props and items x3_3: -1534311719
+      props and items x3_91: -539975875
+      props and items x3_16: -842910232
+      props and items x3_18: -581127573
+      props and items x3_45: -787385086
+      props and items x3_96: 90070277
+      props and items x3_61: -252574493
+      props and items x3_83: -1634381197
+      props and items x3_31: -463052490
+      props and items x3_64: 1307631582
+      props and items x3_25: 1339944484
+      props and items x3_103: -2140886891
+      props and items x3_62: -471603166
+      props and items x3_4: -1332255514
+      props and items x3_39: 149732366
+      props and items x3_17: 957300678
+      props and items x3_30: -74528265
+      props and items x3_102: -1391609434
+      props and items x3_19: 763364603
+      props and items x3_6: -205167733
+      props and items x3_54: -1259930709
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
