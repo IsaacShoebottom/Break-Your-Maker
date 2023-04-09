@@ -12,23 +12,25 @@ public class PlayerMovement : MonoBehaviour {
 		/* Using the Unity Input System to handle player movement in 2D */
 		
 		
-		// Get the horizontal and vertical movement from the player
-		var horizontal = Input.GetAxis("Horizontal");
-		var vertical = Input.GetAxis("Vertical");
+		// Only if the movement keys are pressed
+		if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0) {
+			// Get the horizontal and vertical movement from the player
+			var horizontal = Input.GetAxis("Horizontal");
+			var vertical = Input.GetAxis("Vertical");
 		
-		// Create a vector from the horizontal and vertical movement
-		var movement = new Vector3(horizontal, vertical, 0);
+			// Create a vector from the horizontal and vertical movement
+			var movement = new Vector3(horizontal, vertical, 0);
 		
-		// Normalize the movement vector and make it proportional to the moveSpeed per second
-		movement = movement.normalized * (moveSpeed * Time.deltaTime);
+			// Normalize the movement vector and make it proportional to the moveSpeed per second
+			movement = movement.normalized * (moveSpeed * Time.deltaTime);
 	
-		// Move the player to it's current position plus the movement
-		transform.position += movement;
-
-		// Get the mouse position from the main camera
+			// Move the player
+			transform.position += movement;
+		}
+		// Rotate to always face the mouse
 		var mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-		
-		// Rotate the player to face the mouse
-		transform.rotation = Quaternion.LookRotation(Vector3.forward, mousePosition - transform.position);
+		var lookDirection = mousePosition - transform.position;
+		var angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 	}
 }
