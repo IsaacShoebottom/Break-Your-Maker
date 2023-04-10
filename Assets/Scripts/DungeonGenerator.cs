@@ -42,6 +42,7 @@ public class DungeonGenerator : MonoBehaviour
                     
                     var newRoom = Instantiate (room, new Vector3(i*offset.x, -j*offset.y, 0), Quaternion.identity, transform).GetComponent<RoomBehavior>();
                     newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
+                    newRoom.GenerateLayout();
                 }
             }
         }
