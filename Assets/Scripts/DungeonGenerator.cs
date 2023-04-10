@@ -125,6 +125,7 @@ public class DungeonGenerator : MonoBehaviour
             }
         }
         generateDungeon();
+        AstarPath.active.Scan();
     }
 
      List<int> CheckNeighbors(int cell){
