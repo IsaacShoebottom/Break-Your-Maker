@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour {
+	//TODO: Make the clamp work with the size of the generated map
+	
 	// Player to follow
 	public Transform player;
 	
