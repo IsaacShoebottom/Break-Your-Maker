@@ -19,6 +19,8 @@ public class SoldierController : MonoBehaviour
     private float timer;
     private float lastShot;
 
+    private int health = 3;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -68,5 +70,17 @@ public class SoldierController : MonoBehaviour
     void Flip(){
         localScale = transform.localScale;
         transform.localScale = new Vector3(-localScale.x, localScale.y, localScale.z);
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D other){
+        Debug.Log(other.gameObject.tag);
+        if(other.gameObject.tag == "Bullet"){
+            Destroy(other.gameObject);
+            health--;
+        }
+        if(health <= 0){
+            Destroy(gameObject);
+        }
     }
 }
