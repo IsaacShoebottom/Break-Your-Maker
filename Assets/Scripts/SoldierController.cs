@@ -63,9 +63,6 @@ public class SoldierController : MonoBehaviour {
 			var playerPosition = GameObject.FindWithTag("Player").transform.position;
 			// Get the position of the soldier
 			var position = transform.position;
-			
-			print(playerPosition);
-			
 
 			// Get angle between player and soldier
 			var angle = Mathf.Atan2(playerPosition.y - position.y, playerPosition.x - position.x) * Mathf.Rad2Deg;
