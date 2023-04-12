@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1879173536}
+  weaponOffset: {x: 0, y: 0, z: 0}
   bullet: {fileID: 394646690647383400, guid: 01f29b98e3656e7498efa999ea4bf273, type: 3}
 --- !u!95 &1061071899
 Animator:
@@ -613,6 +614,7 @@ GameObject:
   - component: {fileID: 1879173540}
   - component: {fileID: 1879173543}
   - component: {fileID: 1879173544}
+  - component: {fileID: 1879173545}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -724,7 +726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85f46206c24a967458d7c38673fc0f12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponOffset: {x: 1, y: 0, z: 0}
+  weaponOffset: 60
   bullet: {fileID: 394646690647383400, guid: 01f29b98e3656e7498efa999ea4bf273, type: 3}
 --- !u!50 &1879173543
 Rigidbody2D:
@@ -763,3 +765,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
+--- !u!95 &1879173545
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879173536}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7643e8ab15780874c934070cea243565, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -4,9 +4,14 @@ using UnityEngine;
 using UnityEngine.Serialization;
 
 public class PlayerWeapons : MonoBehaviour {
-	public Vector3 weaponOffset;
+	public int weaponOffset;
 	public GameObject bullet;
-	private void Start() { }
+
+	private Animator anim;
+
+	private void Start() {
+		anim = GetComponent<Animator>();
+	}
 
 	private void Update() {
 		//When the player presses mouse1 (left click) shoot a bullet
@@ -14,16 +19,31 @@ public class PlayerWeapons : MonoBehaviour {
 		if (Input.GetMouseButtonDown(0)) {
 			// Get the rotation of the player
 			var rotation = transform.rotation;
-			// Create new quaternion with the rotation of 90 degrees in the z axis (this is because the default capsule is the wrong way around)
-			var newRotation = Quaternion.Euler(rotation.eulerAngles.x, rotation.eulerAngles.y, rotation.eulerAngles.z + 90);
 			
 			// Get the position of the player
 			var position = transform.position;
+			
+			
+			
+			// Create a vector of distance one from the player's position to the mouse position
+			var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			var lookDirection = mousePosition - position;
+			var direction = lookDirection.normalized;
+			print(direction.magnitude);
+			
+			// Create a distance vector that has the magnitude of the weapon offset
+			var distance = direction * weaponOffset;
+
+			print(distance.magnitude);
+			
 			// Create new vector3 with the position of the player + the offset
-			var newPosition = new Vector3(position.x + weaponOffset.x, position.y + weaponOffset.y, position.z + weaponOffset.z);
+
+			var newPosition = position + distance;
 			
 			//Instantiate a bullet at the player's position
-			Instantiate(bullet, newPosition, newRotation);
+			Instantiate(bullet, newPosition, rotation);
+			
+			anim.Play("Shoot");
 		}
 	}
 }

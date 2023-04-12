@@ -4,8 +4,11 @@ public class PlayerMovement : MonoBehaviour {
 	private Camera mainCamera;
 	public float moveSpeed = 5f;
 
+	private Animator anim;
+
 	private void Start() {
 		mainCamera = Camera.main;
+		anim = GetComponent<Animator>();
 	}
 
 	private void Update() {
@@ -26,6 +29,17 @@ public class PlayerMovement : MonoBehaviour {
 	
 			// Move the player
 			transform.position += movement;
+			
+			// If the player was idle, play the walk animation
+			if (anim.GetCurrentAnimatorStateInfo(0).IsName("Idle")) {
+				anim.Play("Walk");
+			}
+		}
+		else {
+			// If the player was walking, play the idle animation
+			if (anim.GetCurrentAnimatorStateInfo(0).IsName("Walk")) {
+				anim.Play("Idle");
+			}
 		}
 		// Rotate to always face the mouse
 		var mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
