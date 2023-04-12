@@ -12,7 +12,7 @@ public class SoldierController : MonoBehaviour {
 	public GameObject player;
 	private Animator anim;
 	
-	public Vector3 weaponOffset;
+	public float weaponOffset;
 	public GameObject bullet;
 
 	private float timer;
@@ -58,18 +58,36 @@ public class SoldierController : MonoBehaviour {
 			anim.Play("Run");
 		}
 
-		if (Vector3.Distance(player.transform.position, transform.position) < 35 && (timer - lastShot) > 3) {
-			
-			// Get angle between player and soldier
-			var rotation = Mathf.Atan2(player.transform.position.y - transform.position.y, player.transform.position.x - transform.position.x) * Mathf.Rad2Deg;
-
-			// Get the position of the player
+		if (Vector3.Distance(player.transform.position, transform.position) < 35 && timer - lastShot > 3) {
+			// Get transform of player
+			var playerPosition = GameObject.FindWithTag("Player").transform.position;
+			// Get the position of the soldier
 			var position = transform.position;
+			
+			print(playerPosition);
+			
+
+			// Get angle between player and soldier
+			var angle = Mathf.Atan2(playerPosition.y - position.y, playerPosition.x - position.x) * Mathf.Rad2Deg;
+
+			
+			
+			// Get a vector from the soldier to the player
+			var distance = playerPosition - position;
+			// Normalize the vector
+			var direction = distance.normalized;
+			
+			// Create a distance vector that has the magnitude of the weapon offset
+			var offsetVector = direction * weaponOffset;
+			
 			// Create new vector3 with the position of the player + the offset
-			var newPosition = new Vector3(position.x + weaponOffset.x, position.y + weaponOffset.y, position.z + weaponOffset.z);
+			var newPosition = position + offsetVector;
+			
+			var rotation = Quaternion.Euler(0, 0, angle);
+			
 			
 			//Instantiate a bullet at the player's position
-			Instantiate(bullet, newPosition, rotation: Quaternion.Euler(0, 0, rotation));
+			Instantiate(bullet, newPosition, rotation);
 
 			lastShot = timer;
 		}

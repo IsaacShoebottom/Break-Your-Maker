@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 6044430860717294291, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
+  weaponOffset: 7
   bullet: {fileID: 394646690647383400, guid: 01f29b98e3656e7498efa999ea4bf273, type: 3}
 --- !u!114 &2598633500736008907
 MonoBehaviour:
