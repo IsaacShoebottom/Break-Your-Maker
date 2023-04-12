@@ -3,9 +3,19 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
 	private Camera mainCamera;
 	public float moveSpeed = 5f;
+	public bool NorthTeleported;
+	public bool EastTeleported;
+	public bool SouthTeleported;
+	public bool WestTeleported;
+	public float teleportDist =40f;
+	private Vector3 oldPosition;
 
 	private void Start() {
 		mainCamera = Camera.main;
+		NorthTeleported =false;
+		EastTeleported =false;
+		SouthTeleported =false;
+		WestTeleported =false;
 	}
 
 	private void Update() {
@@ -32,5 +42,41 @@ public class PlayerMovement : MonoBehaviour {
 		var lookDirection = mousePosition - transform.position;
 		var angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
 		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+		if (Vector3.Distance(oldPosition, transform.position) > 10){
+			NorthTeleported =false;
+			EastTeleported =false;
+			SouthTeleported =false;
+			WestTeleported =false;
+		}
 	}
+
+	void OnTriggerEnter2D(Collider2D other){
+
+		if(other.tag == "NorthEntrance" && !SouthTeleported){
+			NorthTeleported = true;
+			transform.position = transform.position + new Vector3(0f, 1f, 0f) * teleportDist;
+			oldPosition = transform.position;
+		}
+
+		if(other.tag == "EastEntrance" && !WestTeleported){
+			EastTeleported = true;
+			transform.position = transform.position + new Vector3(1f, 0f, 0f) * teleportDist;
+			oldPosition = transform.position;
+		}
+
+		if(other.tag == "SouthEntrance" && !NorthTeleported){
+			SouthTeleported = true;
+			transform.position = transform.position + new Vector3(0f, -1f, 0f) * teleportDist;
+			oldPosition = transform.position;
+		}
+
+		if(other.tag == "WestEntrance" && !EastTeleported){
+			WestTeleported = true;
+			transform.position = transform.position + new Vector3(-1f, 0f, 0f) * teleportDist;
+			oldPosition = transform.position;
+		}
+
+	}
+
 }

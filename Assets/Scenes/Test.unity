@@ -403,6 +403,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6044430860717294288, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
+      propertyPath: teleportDist
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 6044430860717294289, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
       propertyPath: m_RootOrder
       value: 3
