@@ -833,7 +833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6044430860717294294, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
       propertyPath: weaponOffset
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
