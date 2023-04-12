@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLogic : MonoBehaviour {
 	public TextMeshProUGUI healthText;
@@ -20,9 +21,8 @@ public class PlayerLogic : MonoBehaviour {
 			health--;
 			healthText.text = "Health: " + health;
 			if (health <= 0) {
-				// Load the game over scene here
-				// (Not yet implemented)
 				print("You lose!");
+				SceneManager.LoadScene("Lose");
 			}
 		}
 		
