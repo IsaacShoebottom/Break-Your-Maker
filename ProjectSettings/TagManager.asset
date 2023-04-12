@@ -10,6 +10,7 @@ TagManager:
   - EastEntrance
   - SouthEntrance
   - WestEntrance
+  - Walls
   layers:
   - Default
   - TransparentFX

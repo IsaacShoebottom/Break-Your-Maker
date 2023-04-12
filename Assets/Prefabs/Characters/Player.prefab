@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6044430860717294288}
   - component: {fileID: 6044430860717294294}
   - component: {fileID: 6044430860717294295}
+  - component: {fileID: 2764248379293345779}
   - component: {fileID: 6044430860717294292}
   - component: {fileID: 6044430860717294299}
   m_Layer: 0
@@ -114,7 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85f46206c24a967458d7c38673fc0f12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponOffset: {x: 0, y: 0, z: 0}
+  weaponOffset: 0
   bullet: {fileID: 394646690647383400, guid: 01f29b98e3656e7498efa999ea4bf273, type: 3}
 --- !u!114 &6044430860717294295
 MonoBehaviour:
@@ -128,6 +129,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ee3cb969f34d3f40bba684f354134a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2764248379293345779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6044430860717294291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa199269122a3ba43a9c9a4317903a53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthText: {fileID: 0}
 --- !u!50 &6044430860717294292
 Rigidbody2D:
   serializedVersion: 4
