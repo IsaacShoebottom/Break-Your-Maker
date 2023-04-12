@@ -775,10 +775,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD:Assets/Scenes/Level-1.unity
     - target: {fileID: 2764248379293345779, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
       propertyPath: healthText
       value: 
       objectReference: {fileID: 456507982}
+=======
+    - target: {fileID: 6044430860717294288, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
+      propertyPath: teleportDist
+      value: 40
+      objectReference: {fileID: 0}
+>>>>>>> main:Assets/Scenes/Test.unity
     - target: {fileID: 6044430860717294289, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
       propertyPath: m_RootOrder
       value: 3

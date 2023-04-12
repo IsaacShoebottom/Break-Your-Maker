@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Obstacles
   - Bullet
+  - NorthEntrance
+  - EastEntrance
+  - SouthEntrance
+  - WestEntrance
   - Walls
   layers:
   - Default
