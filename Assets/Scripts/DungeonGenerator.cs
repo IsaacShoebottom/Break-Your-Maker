@@ -32,6 +32,7 @@ public class DungeonGenerator : MonoBehaviour
         
     }
 
+    //Instantiates rooms in layout goten from Maze Generator
     void generateDungeon(){
 
         for(int i=0; i<size.x; i++){
@@ -49,23 +50,24 @@ public class DungeonGenerator : MonoBehaviour
 
     }
 
+    //generates the layout of the dungeon
     void MazeGenerator(){
 
-        board = new List<Cell>();
+        board = new List<Cell>(); //creating board of rooms
 
         for(int i=0; i<size.x; i++){
 
-            for(int j=0; j<size.y; j++){
+            for(int j=0; j<size.y; j++){ // adding cells to the board
                 board.Add(new Cell());
             }
 
         }
 
-        int currentCell = startPos;
+        int currentCell = startPos; //set the starting room position in the grid
 
-        Stack<int> path = new Stack<int>();
+        Stack<int> path = new Stack<int>(); //making stack to trace the path
 
-        int numberOfRooms = 3*floorDepth + Random.Range(5,7);
+        int numberOfRooms = 3*floorDepth + Random.Range(5,7); //setting maximum number of rooms.
         if(numberOfRooms > 20){
             numberOfRooms = 20;
         }
@@ -79,7 +81,7 @@ public class DungeonGenerator : MonoBehaviour
             //check neighbors
             List<int> neighbors = CheckNeighbors(currentCell);
 
-            if(neighbors.Count == 0){
+            if(neighbors.Count == 0){//returning on path
 
                 if(path.Count == 0){
                     break;
@@ -88,7 +90,7 @@ public class DungeonGenerator : MonoBehaviour
                     currentCell = path.Pop();
                 }
             }
-            else{
+            else{//adding doorways to path
 
                 path.Push(currentCell);
                 int newCell = neighbors[Random.Range(0,neighbors.Count)];
@@ -126,7 +128,7 @@ public class DungeonGenerator : MonoBehaviour
             }
         }
         generateDungeon();
-        AstarPath.active.Scan();
+        AstarPath.active.Scan(); //adds pathfinding component to level
     }
 
      List<int> CheckNeighbors(int cell){
