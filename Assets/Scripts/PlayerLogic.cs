@@ -18,13 +18,17 @@ public class PlayerLogic : MonoBehaviour {
 		// If other is tagged bullets, take damage
 		if (other.gameObject.CompareTag("Bullet")) {
 			Destroy(other.gameObject);
-			health--;
-			healthText.text = "Health: " + health;
-			if (health <= 0) {
-				print("You lose!");
-				SceneManager.LoadScene("Lose");
-			}
+			Damage();
 		}
 		
+	}
+
+	public void Damage(){
+		health--;
+		healthText.text = "Health: " + health;
+		if (health <= 0) {
+			print("You lose!");
+			SceneManager.LoadScene("Lose");
+		}
 	}
 }
