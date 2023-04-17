@@ -28,6 +28,8 @@ public class SoldierController : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		timer = 0;
 		lastShot = 0;
+
+		player = GameObject.FindWithTag("Player");
 	}
 
 	// Update is called once per frame
