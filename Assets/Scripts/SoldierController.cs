@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Pathfinding;
 
 public class SoldierController : MonoBehaviour {
 	private bool isLeft;
@@ -15,10 +16,14 @@ public class SoldierController : MonoBehaviour {
 	public float weaponOffset;
 	public GameObject bullet;
 
+	public AIDestinationSetter setter;
+
 	private float timer;
 	private float lastShot;
 
 	private int health = 3;
+
+	private bool enemySpotted = false;
 
 	// Start is called before the first frame update
 	void Start() {
@@ -28,7 +33,6 @@ public class SoldierController : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		timer = 0;
 		lastShot = 0;
-
 		player = GameObject.FindWithTag("Player");
 	}
 
@@ -58,6 +62,12 @@ public class SoldierController : MonoBehaviour {
 		}
 		else {
 			anim.Play("Run");
+		}
+
+		if(Vector3.Distance(player.transform.position, transform.position) < 70 && !enemySpotted){
+			setter.SetTarget(player);
+			lastShot = timer;
+			enemySpotted = true;
 		}
 
 		if (Vector3.Distance(player.transform.position, transform.position) < 35 && timer - lastShot > 3) {

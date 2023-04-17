@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 924694929
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1195419479, guid: 8656ec6ad972e394081e7079f070e923, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -125,6 +125,7 @@ MonoBehaviour:
   player: {fileID: 6044430860717294291, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
   weaponOffset: 10
   bullet: {fileID: 394646690647383400, guid: 01f29b98e3656e7498efa999ea4bf273, type: 3}
+  setter: {fileID: 2598633500736008908}
 --- !u!114 &2598633500736008907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 6044430860717294289, guid: 1cb13b0c993f5d2428007d9c423c5e97, type: 3}
+  target: {fileID: 0}
 --- !u!61 &2598633500736008909
 BoxCollider2D:
   m_ObjectHideFlags: 0
