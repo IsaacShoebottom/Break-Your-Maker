@@ -587,10 +587,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07358dafeb29b1245961c3b6ee84b3de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 5, y: 5}
+  size: {x: 7, y: 7}
   floorDepth: 1
   startPos: 0
-  room: {fileID: 1026332756838677404, guid: bb557bab966d75247ad35afaac4bd838, type: 3}
+  room: {fileID: 7247187286177691313, guid: bb557bab966d75247ad35afaac4bd838, type: 3}
+  startRoom: {fileID: 1777201820168484235, guid: b821fe4b39bed644a92a4a99bc21e296, type: 3}
+  BossRoom: {fileID: 6057069054583604921, guid: e97e64757e9683c4890ba04d4f7c0400, type: 3}
   offset: {x: 130, y: 130}
 --- !u!4 &1427696373
 Transform:

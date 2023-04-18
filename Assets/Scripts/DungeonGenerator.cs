@@ -8,6 +8,7 @@ public class DungeonGenerator : MonoBehaviour
     public class Cell{
 
         public bool visited = false;
+        public bool treasureRoom = false;
         public bool[] status = new bool[4];
 
     }
@@ -16,6 +17,8 @@ public class DungeonGenerator : MonoBehaviour
     public int floorDepth = 1;
     public int startPos = 0;
     public GameObject room;
+    public GameObject startRoom;
+    public GameObject BossRoom;
     public Vector2 offset;
 
     List<Cell> board;
@@ -35,15 +38,24 @@ public class DungeonGenerator : MonoBehaviour
     //Instantiates rooms in layout goten from Maze Generator
     void generateDungeon(){
 
+        var bossRoom = Instantiate (BossRoom, new Vector3(0, (float)1.5*offset.y, 0), Quaternion.identity, transform);
+
         for(int i=0; i<size.x; i++){
 
             //instantiates visited rooms.
             for(int j=0; j<size.y; j++){
-                if(board[Mathf.FloorToInt(i+j*size.x)].visited){
+
+                if(i==0){//setting start room
+                    var newRoom = Instantiate (startRoom, new Vector3(i*offset.x, -j*offset.y, 0), Quaternion.identity, transform).GetComponent<RoomBehavior>();
+                    newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
+                    break;
+                }
+
+                if(board[Mathf.FloorToInt(i+j*size.x)].visited){//retreiving room layout and making room
                     
                     var newRoom = Instantiate (room, new Vector3(i*offset.x, -j*offset.y, 0), Quaternion.identity, transform).GetComponent<RoomBehavior>();
                     newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
-                    newRoom.GenerateLayout();
+                    newRoom.GenerateLayout(board[Mathf.FloorToInt(i+j*size.x)].treasureRoom);
                 }
             }
         }
@@ -75,6 +87,12 @@ public class DungeonGenerator : MonoBehaviour
         int generatedRooms = 0;
 
         while (generatedRooms<=numberOfRooms){
+
+            //determining if room is a treasure room
+            int chance = Random.Range(0,100);
+            if(generatedRooms == numberOfRooms || chance <= 5){
+                board[currentCell].treasureRoom = true;
+            }
             
             board[currentCell].visited = true;
 

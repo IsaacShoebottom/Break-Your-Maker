@@ -11,6 +11,7 @@ TagManager:
   - SouthEntrance
   - WestEntrance
   - Walls
+  - Chest
   layers:
   - Default
   - TransparentFX

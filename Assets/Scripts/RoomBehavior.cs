@@ -14,7 +14,7 @@ public class RoomBehavior : MonoBehaviour
         }
     }
 
-    public void GenerateLayout(){
+    public void GenerateLayout(bool treasureRoom){
         int selection = Random.Range(0,6);
 
         switch(selection){
@@ -25,6 +25,7 @@ public class RoomBehavior : MonoBehaviour
                 layouts[2].SetActive(false);
                 layouts[3].SetActive(false);
                 layouts[4].SetActive(false);
+                layouts[5].SetActive(false);
                 break;
 
             case 2:
@@ -33,6 +34,7 @@ public class RoomBehavior : MonoBehaviour
                 layouts[2].SetActive(false);
                 layouts[3].SetActive(false);
                 layouts[4].SetActive(false);
+                layouts[5].SetActive(false);
                 break;
 
             case 3:
@@ -41,6 +43,7 @@ public class RoomBehavior : MonoBehaviour
                 layouts[1].SetActive(false);
                 layouts[3].SetActive(false);
                 layouts[4].SetActive(false);
+                layouts[5].SetActive(false);
                 break;
 
             case 4:
@@ -49,6 +52,7 @@ public class RoomBehavior : MonoBehaviour
                 layouts[1].SetActive(false);
                 layouts[2].SetActive(false);
                 layouts[4].SetActive(false);
+                layouts[5].SetActive(false);
                 break;
 
             case 5:
@@ -57,6 +61,7 @@ public class RoomBehavior : MonoBehaviour
                 layouts[1].SetActive(false);
                 layouts[2].SetActive(false);
                 layouts[3].SetActive(false);
+                layouts[5].SetActive(false);
                 break;
 
             default: 
@@ -65,7 +70,17 @@ public class RoomBehavior : MonoBehaviour
                 layouts[2].SetActive(false);
                 layouts[3].SetActive(false);
                 layouts[4].SetActive(false);
+                layouts[5].SetActive(false);
                 break;      
+        }
+
+        if(treasureRoom){
+            layouts[0].SetActive(false);
+            layouts[1].SetActive(false);
+            layouts[2].SetActive(false);
+            layouts[3].SetActive(false);
+            layouts[4].SetActive(false);
+            layouts[5].SetActive(true);
         }
     }
 }
