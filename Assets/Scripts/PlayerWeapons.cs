@@ -8,6 +8,7 @@ public class PlayerWeapons : MonoBehaviour {
 	public GameObject bullet;
 
 	private Animator anim;
+	private AudioSource audioSource;
 	
 	public int damage = 1;
 	
@@ -19,6 +20,7 @@ public class PlayerWeapons : MonoBehaviour {
 
 	private void Start() {
 		anim = GetComponent<Animator>();
+		audioSource = GetComponent<AudioSource>();
 	}
 
 	private void Update() {
@@ -65,6 +67,7 @@ public class PlayerWeapons : MonoBehaviour {
 			}
 
 			anim.Play("Shoot");
+			audioSource.Play();
 		}
 	}
 
