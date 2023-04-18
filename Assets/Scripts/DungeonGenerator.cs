@@ -45,13 +45,12 @@ public class DungeonGenerator : MonoBehaviour
             //instantiates visited rooms.
             for(int j=0; j<size.y; j++){
 
-                if(i==0){//setting start room
+                if(i==0 && j==0){//setting start room
                     var newRoom = Instantiate (startRoom, new Vector3(i*offset.x, -j*offset.y, 0), Quaternion.identity, transform).GetComponent<RoomBehavior>();
                     newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
-                    break;
                 }
 
-                if(board[Mathf.FloorToInt(i+j*size.x)].visited){//retreiving room layout and making room
+                else if(board[Mathf.FloorToInt(i+j*size.x)].visited){//retreiving room layout and making room
                     
                     var newRoom = Instantiate (room, new Vector3(i*offset.x, -j*offset.y, 0), Quaternion.identity, transform).GetComponent<RoomBehavior>();
                     newRoom.UpdateRoom(board[Mathf.FloorToInt(i+j*size.x)].status);
@@ -113,31 +112,35 @@ public class DungeonGenerator : MonoBehaviour
                 path.Push(currentCell);
                 int newCell = neighbors[Random.Range(0,neighbors.Count)];
 
-                if(newCell > currentCell){//down or right
+                if(generatedRooms!=numberOfRooms){
 
-                    if(newCell - 1 == currentCell){ //right
-                        board[currentCell].status[2] = true;
-                        currentCell = newCell;
-                        board[currentCell].status[3] = true;
-                    }
-                    else{ //down
-                        board[currentCell].status[1] = true;
-                        currentCell = newCell;
-                        board[currentCell].status[0] = true;
-                    }
+                    if(newCell > currentCell){//down or right
 
-                }
-                else{//up or left
+                        if(newCell - 1 == currentCell){ //right
+                            board[currentCell].status[2] = true;
+                            currentCell = newCell;
+                            board[currentCell].status[3] = true;
+                        }
+                        else{ //down
+                            board[currentCell].status[1] = true;
+                            currentCell = newCell;
+                            board[currentCell].status[0] = true;
+                        }
 
-                    if(newCell + 1 == currentCell){ //left
-                        board[currentCell].status[3] = true;
-                        currentCell = newCell;
-                        board[currentCell].status[2] = true;
                     }
-                    else{ //up
-                        board[currentCell].status[0] = true;
-                        currentCell = newCell;
-                        board[currentCell].status[1] = true;
+                    else{//up or left
+
+                        if(newCell + 1 == currentCell){ //left
+                            board[currentCell].status[3] = true;
+                            currentCell = newCell;
+                            board[currentCell].status[2] = true;
+                        }
+                        else{ //up
+                            board[currentCell].status[0] = true;
+                            currentCell = newCell;
+                            board[currentCell].status[1] = true;
+                        }
+
                     }
 
                 }

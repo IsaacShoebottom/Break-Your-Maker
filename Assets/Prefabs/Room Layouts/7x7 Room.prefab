@@ -11993,7 +11993,7 @@ MonoBehaviour:
   items:
   - {fileID: 6777745161812848959, guid: a85237fa93f66504195ebfd9e4924ac3, type: 3}
   - {fileID: 6777745161812848959, guid: 9028e1ee6720d3c40b35befa5f709cb6, type: 3}
-  key: {fileID: 0}
+  key: {fileID: 2864424405977011911, guid: cd3d69b4d7e8d7447a46a0beaf4419f6, type: 3}
   offset: 15
 --- !u!61 &6703735040713929902
 BoxCollider2D:

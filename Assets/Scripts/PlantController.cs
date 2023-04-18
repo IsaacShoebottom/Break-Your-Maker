@@ -15,7 +15,7 @@ public class PlantController : MonoBehaviour
 	private float timer;
 	private float lastShot;
 
-	private int health = 30;
+	private int health = 100;
 
 	private bool enemySpotted = false;
 
@@ -39,7 +39,7 @@ public class PlantController : MonoBehaviour
         }
 
         if(enemySpotted){
-            if( timer - lastShot > 3){
+            if( timer - lastShot > 2){
                 if(Vector3.Distance(player.transform.position, transform.position) < 30){
                     lastShot = timer;
                     anim.Play("Bite");

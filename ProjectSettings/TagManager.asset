@@ -12,6 +12,7 @@ TagManager:
   - WestEntrance
   - Walls
   - Chest
+  - BossEntrance
   layers:
   - Default
   - TransparentFX

@@ -28,7 +28,7 @@ public class AcidController : MonoBehaviour
     {
 		timer += Time.deltaTime;
 
-        if(timer > 3 && !active){
+        if(timer > 2 && !active){
             active = true;
             anim.Play("Active");
         }
@@ -38,7 +38,7 @@ public class AcidController : MonoBehaviour
             lastHit = timer;
         }
 
-        if(timer > 10){
+        if(timer > 20){
 			Destroy(gameObject);            
         }
     }

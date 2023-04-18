@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour {
 	public bool EastTeleported;
 	public bool SouthTeleported;
 	public bool WestTeleported;
+	public bool keyObtained;
 	public float teleportDist =40f;
 	private Vector3 oldPosition;
 
@@ -19,6 +20,7 @@ public class PlayerMovement : MonoBehaviour {
 		EastTeleported =false;
 		SouthTeleported =false;
 		WestTeleported =false;
+		keyObtained =false;
 	}
 
 	private void Update() {
@@ -93,6 +95,29 @@ public class PlayerMovement : MonoBehaviour {
 			oldPosition = transform.position;
 		}
 
+		if(other.tag == "BossEntrance" && keyObtained){
+			transform.position = transform.position + new Vector3(0f, 1f, 0f) * (float)1.5 * teleportDist;
+		}
+
+	}
+
+	void OnCollisionEnter2D(Collision2D other){
+
+		//checks if other is a chest
+		if(other.gameObject.CompareTag("Chest")){
+			var chest = other.gameObject.GetComponent<ChestControl>();
+			
+			if(!keyObtained){
+				chest.SpawnKey(); //spawns key for player
+			}
+			else{
+				chest.SpawnItem(); //spawns item for player
+			}
+		}
+	}
+
+	public void gotKey(){
+		keyObtained = true;
 	}
 
 }
