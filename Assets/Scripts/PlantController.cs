@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlantController : MonoBehaviour
 {
@@ -51,6 +53,10 @@ public class PlantController : MonoBehaviour
                 }
             }
         }
+        if (health <= 0) {
+	        player.GetComponent<PlayerLogic>().Win();
+	        Destroy(gameObject);
+        }
     }
 
     void AcidAttack(){
@@ -58,14 +64,11 @@ public class PlantController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log(other.gameObject.tag);
-		if (other.gameObject.tag == "Bullet") {
+	    if (other.gameObject.CompareTag("Bullet")) {
 			Destroy(other.gameObject);
 			health--;
 		}
+    }
 
-		if (health <= 0) {
-			Destroy(gameObject);
-		}
-	}
+
 }

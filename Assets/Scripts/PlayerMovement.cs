@@ -1,7 +1,6 @@
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
-	private Camera mainCamera;
 	public float moveSpeed = 5f;
 	public bool NorthTeleported;
 	public bool EastTeleported;
@@ -14,7 +13,6 @@ public class PlayerMovement : MonoBehaviour {
 	private Animator anim;
 
 	private void Start() {
-		mainCamera = Camera.main;
 		anim = GetComponent<Animator>();
 		NorthTeleported =false;
 		EastTeleported =false;
@@ -71,32 +69,32 @@ public class PlayerMovement : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 
-		if(other.tag == "NorthEntrance" && !SouthTeleported){
+		if(other.CompareTag("NorthEntrance") && !SouthTeleported){
 			NorthTeleported = true;
-			transform.position = transform.position + new Vector3(0f, 1f, 0f) * teleportDist;
+			transform.position += new Vector3(0f, 1f, 0f) * teleportDist;
 			oldPosition = transform.position;
 		}
 
-		if(other.tag == "EastEntrance" && !WestTeleported){
+		if(other.CompareTag("EastEntrance") && !WestTeleported){
 			EastTeleported = true;
-			transform.position = transform.position + new Vector3(1f, 0f, 0f) * teleportDist;
+			transform.position += new Vector3(1f, 0f, 0f) * teleportDist;
 			oldPosition = transform.position;
 		}
 
-		if(other.tag == "SouthEntrance" && !NorthTeleported){
+		if(other.CompareTag("SouthEntrance") && !NorthTeleported){
 			SouthTeleported = true;
-			transform.position = transform.position + new Vector3(0f, -1f, 0f) * teleportDist;
+			transform.position += new Vector3(0f, -1f, 0f) * teleportDist;
 			oldPosition = transform.position;
 		}
 
-		if(other.tag == "WestEntrance" && !EastTeleported){
+		if(other.CompareTag("WestEntrance") && !EastTeleported){
 			WestTeleported = true;
-			transform.position = transform.position + new Vector3(-1f, 0f, 0f) * teleportDist;
+			transform.position += new Vector3(-1f, 0f, 0f) * teleportDist;
 			oldPosition = transform.position;
 		}
 
-		if(other.tag == "BossEntrance" && keyObtained){
-			transform.position = transform.position + new Vector3(0f, 1f, 0f) * (float)1.5 * teleportDist;
+		if(other.CompareTag("BossEntrance") && keyObtained){
+			transform.position += new Vector3(0f, 1f, 0f) * (float)1.5 * teleportDist;
 		}
 
 	}

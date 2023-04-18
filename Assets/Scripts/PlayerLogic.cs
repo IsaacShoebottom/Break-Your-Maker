@@ -45,4 +45,11 @@ public class PlayerLogic : MonoBehaviour {
 		health++;
 		healthText.text = "Health: " + health;
 	}
+	
+	public void Win() {
+		Invoke(nameof(loadEndScene), 2);
+	}
+	private void loadEndScene() {
+		SceneManager.LoadScene("End");
+	}
 }

@@ -103,11 +103,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7850322425e9316469a45d5747808442, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
+  moveSpeed: 30
   NorthTeleported: 0
   EastTeleported: 0
   SouthTeleported: 0
   WestTeleported: 0
+  keyObtained: 0
   teleportDist: 40
 --- !u!114 &6044430860717294294
 MonoBehaviour:
