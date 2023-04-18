@@ -52,10 +52,12 @@ public class PlayerMovement : MonoBehaviour {
 			}
 		}
 		// Rotate to always face the mouse
+		/* Don't rotate the player to face the mouse
 		var mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
 		var lookDirection = mousePosition - transform.position;
 		var angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
 		transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+		*/
 
 		if (Vector3.Distance(oldPosition, transform.position) > 10){
 			NorthTeleported =false;

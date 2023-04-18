@@ -50,11 +50,18 @@ public class PlayerWeapons : MonoBehaviour {
 			// Create new vector3 with the position of the player + the offset
 
 			var newPosition = position + distance;
-
+			
+			
+			// Create an angle from the direction vector
+			var angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg;
+			// Convert to quaternion
+			var newRotation = Quaternion.AngleAxis(angle, Vector3.forward);
+			
+			
 			//Instantiate a bullet at the player's position (as many times as the damage is)
 			//This simulates a linear increase in damage by increasing the number of bullets, while just faking a single bullet
 			for (var i = 0; i < damage; i++) {
-				Instantiate(bullet, newPosition, rotation);
+				Instantiate(bullet, newPosition, newRotation);
 			}
 
 			anim.Play("Shoot");
