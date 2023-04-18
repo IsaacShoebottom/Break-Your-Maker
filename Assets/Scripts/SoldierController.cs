@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Pathfinding;
 
 public class SoldierController : MonoBehaviour {
@@ -23,7 +20,7 @@ public class SoldierController : MonoBehaviour {
 
 	private int health = 3;
 
-	private bool enemySpotted = false;
+	private bool enemySpotted;
 
 	// Start is called before the first frame update
 	void Start() {

@@ -7,12 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerLogic : MonoBehaviour {
 	public TextMeshProUGUI healthText;
-	int health = 3;
-	// Start is called before the first frame update
-	void Start() { }
-
-	// Update is called once per frame
-	void Update() { }
+	public int health = 3;
 
 	private void OnCollisionEnter2D(Collision2D other) {
 		// If other is tagged bullets, take damage
@@ -30,5 +25,10 @@ public class PlayerLogic : MonoBehaviour {
 			print("You lose!");
 			SceneManager.LoadScene("Lose");
 		}
+	}
+	
+	public void Powerup(){
+		health++;
+		healthText.text = "Health: " + health;
 	}
 }

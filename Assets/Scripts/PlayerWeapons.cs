@@ -8,6 +8,14 @@ public class PlayerWeapons : MonoBehaviour {
 	public GameObject bullet;
 
 	private Animator anim;
+	
+	public int damage = 1;
+	
+	// Bullet 1 is the default bullet
+	// Bullet 2 is the powerup bullet
+	// Bullet 3 is the default bullet ball
+	// Bullet 4 is the powerup bullet ball
+	public GameObject[] bullets;
 
 	private void Start() {
 		anim = GetComponent<Animator>();
@@ -43,10 +51,18 @@ public class PlayerWeapons : MonoBehaviour {
 
 			var newPosition = position + distance;
 
-			//Instantiate a bullet at the player's position
-			Instantiate(bullet, newPosition, rotation);
-			
+			//Instantiate a bullet at the player's position (as many times as the damage is)
+			//This simulates a linear increase in damage by increasing the number of bullets, while just faking a single bullet
+			for (var i = 0; i < damage; i++) {
+				Instantiate(bullet, newPosition, rotation);
+			}
+
 			anim.Play("Shoot");
 		}
+	}
+
+	public void Powerup() {
+		bullet = bullets[1];
+		damage++;
 	}
 }

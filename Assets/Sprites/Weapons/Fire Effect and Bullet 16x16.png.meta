@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,6 +90,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -5795,18 +5807,18 @@ TextureImporter:
       Fire Effect and Bullet 16x16_244: 1047119226
       Fire Effect and Bullet 16x16_35: 2129761688
       Fire Effect and Bullet 16x16_208: 1581528395
-      Fire Effect and Bullet 16x16_49: 618855570
-      Fire Effect and Bullet 16x16_72: 349755825
       Fire Effect and Bullet 16x16_112: -1713871411
+      Fire Effect and Bullet 16x16_49: 618855570
+      Fire Effect and Bullet 16x16_137: -1401011182
       Fire Effect and Bullet 16x16_22: -572281020
       Fire Effect and Bullet 16x16_113: 1367139893
-      Fire Effect and Bullet 16x16_123: -1991262470
-      Fire Effect and Bullet 16x16_137: -1401011182
+      Fire Effect and Bullet 16x16_241: 1535870351
+      Fire Effect and Bullet 16x16_72: 349755825
       Fire Effect and Bullet 16x16_214: -1378556408
       Fire Effect and Bullet 16x16_132: 1792267481
       Fire Effect and Bullet 16x16_141: 385819506
+      Fire Effect and Bullet 16x16_123: -1991262470
       Fire Effect and Bullet 16x16_184: -951759945
-      Fire Effect and Bullet 16x16_241: 1535870351
       Fire Effect and Bullet 16x16_130: -1187402068
       Fire Effect and Bullet 16x16_76: -336837566
       Fire Effect and Bullet 16x16_80: 190870231
@@ -5909,10 +5921,10 @@ TextureImporter:
       Fire Effect and Bullet 16x16_102: -1253255052
       Fire Effect and Bullet 16x16_44: 1142809332
       Fire Effect and Bullet 16x16_201: -131049394
-      Fire Effect and Bullet 16x16_68: -1947407242
       Fire Effect and Bullet 16x16_174: 692368633
       Fire Effect and Bullet 16x16_9: -283602096
       Fire Effect and Bullet 16x16_27: -2071150777
+      Fire Effect and Bullet 16x16_68: -1947407242
       Fire Effect and Bullet 16x16_115: 840833491
       Fire Effect and Bullet 16x16_1: -1711698857
       Fire Effect and Bullet 16x16_56: -1057518120
