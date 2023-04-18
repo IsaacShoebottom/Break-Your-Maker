@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,6 +90,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -2319,7 +2331,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      props and items x3_48: -648902749
+      props and items x3_54: -1259930709
       props and items x3_5: -1812767916
       props and items x3_47: -2029766981
       props and items x3_29: 1221197898
@@ -2390,8 +2402,8 @@ TextureImporter:
       props and items x3_63: -1405926410
       props and items x3_20: -1535355120
       props and items x3_50: -388486188
-      props and items x3_52: -1194612928
       props and items x3_99: -893108811
+      props and items x3_52: -1194612928
       props and items x3_23: -1428221072
       props and items x3_15: -2089289361
       props and items x3_14: -844351217
@@ -2423,7 +2435,7 @@ TextureImporter:
       props and items x3_102: -1391609434
       props and items x3_19: 763364603
       props and items x3_6: -205167733
-      props and items x3_54: -1259930709
+      props and items x3_48: -648902749
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
