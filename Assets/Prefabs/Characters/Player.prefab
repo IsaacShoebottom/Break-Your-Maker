@@ -124,7 +124,11 @@ MonoBehaviour:
   weaponOffset: 10
   bullet: {fileID: 394646690647383400, guid: 01f29b98e3656e7498efa999ea4bf273, type: 3}
   damage: 1
-  bullets: []
+  bullets:
+  - {fileID: 394646690647383400, guid: 01f29b98e3656e7498efa999ea4bf273, type: 3}
+  - {fileID: 394646690647383400, guid: a528cd812dd692f4b9d5e97092a1d7e2, type: 3}
+  - {fileID: 394646690647383400, guid: 8a969e0a9d6b0f544b999cb40cc94d93, type: 3}
+  - {fileID: 394646690647383400, guid: 63890cbc29d39ea4a993410df56e7cb6, type: 3}
 --- !u!114 &6044430860717294295
 MonoBehaviour:
   m_ObjectHideFlags: 0
